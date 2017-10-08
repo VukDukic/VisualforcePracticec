@@ -1,2 +1,3 @@
 <apex:inputField value={"!Account.Name"}/>
 <apex:inputField value={!"!Account.Owner.Firstname"}/>
+<apex:relatedList list="Contacts" />
