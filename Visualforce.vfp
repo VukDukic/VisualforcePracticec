@@ -1,1 +1,2 @@
 <apex:inputField value={"!Account.Name"}/>
+<apex:inputField value={!"!Account.Owner.Firstname"}/>
